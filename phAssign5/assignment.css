@@ -46,6 +46,9 @@ body{
     border-radius: 30px;
     gap: 10px;
 }
+.RightHedar{
+    padding: 0px !important;
+}
 .midHeader{
     width: 40%;
     border-radius: 30px;

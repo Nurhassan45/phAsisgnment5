@@ -6,7 +6,7 @@
     <title>PhAsisgnment5</title>
     <link rel="stylesheet" href="assignment.css">
 </head>
-<body>
+<body id="bodySohel">
     <div class="goDiv">
         <nav class="flex navcls">
             <div class="logoDiv flex">
@@ -18,7 +18,7 @@
                     <img class="logoImg" src="./assets/checkbox.png" alt="">
                     <h1 id="23Value">23</h1>
                 </div>
-                <img class="btnColor" src="./assets/theme-btn.png" alt="">
+                <img id="themebtn" class="btnColor" src="./assets/theme-btn.png" alt="">
             </div>
         </nav>
 
@@ -30,7 +30,7 @@
                         <div class="sunLeftHeader">
                             <p>Task assigned
                                 <br>
-                                <span>6</span>
+                                <span id="6value">6</span>
                             </p>
                             
                         </div>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="RightHedar flex">
                         <img class="logoImg" src="./assets/calender.png" alt="">
-                        <h1>TueFeb  24,2005</h1>
+                        <h1 id="date"></h1>
                     </div>
                  
                 </header>
@@ -50,7 +50,7 @@
                 <main class="Cards-Section">
                     <div class="card">
                         <p class="bg-p inline">Shop Ease</p>
-                        <h1>
+                        <h1 id="heading">
                             Fix Mobile Button issue
                         </h1>
                         <p class="bg-p">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
@@ -60,9 +60,8 @@
                                 <p>Deadline</p>
                                 <p>21 March 2025</p>
                             </div>
-                            <div id="btn1" class="cardBtn">
-                                <h1>completed</h1>
-                            </div>
+                              
+                            <button id="btn1" class="cardBtn">completed</button>
                         </div>
                     </div>
                   <!-- card-2 -->
@@ -97,9 +96,8 @@
                             <p>Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <div class="cardBtn">
-                            <h1>completed</h1>
-                        </div>
+                          
+                        <button id="btn3" class="cardBtn">completed</button>
                     </div>
                 </div>
 
@@ -116,9 +114,8 @@
                             <p>Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <div class="cardBtn">
-                            <h1>completed</h1>
-                        </div>
+                          
+                        <button id="btn4" class="cardBtn">completed</button>
                     </div>
                 </div>
 
@@ -137,9 +134,8 @@
                             <p>Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <div class="cardBtn">
-                            <h1>completed</h1>
-                        </div>
+                         
+                        <button id="btn5" class="cardBtn">completed</button>
                     </div>
                 </div>
 
@@ -157,9 +153,8 @@
                             <p>Deadline</p>
                             <p>21 March 2025</p>
                         </div>
-                        <div class="cardBtn">
-                            <h1>completed</h1>
-                        </div>
+                         
+                        <button id="btn6" class="cardBtn">completed</button>
                     </div>
                 </div>
                 </main>
@@ -168,8 +163,14 @@
              <div class="rightDiv">
                 <h1>Active Logo</h1>
                 <p class="cardBtn">Clear History</p>
+                <div id="addDiv">
+
+                </div>
+                <hr class="border">
              </div>
-             <hr class="border">
+           
+
+             
 
         </section>
     </div>
